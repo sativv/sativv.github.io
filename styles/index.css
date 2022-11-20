@@ -1,0 +1,138 @@
+body {
+  background: rgb(40, 49, 59);
+  background: -webkit-gradient(linear, left top, right top, from(rgb(40, 49, 59)), color-stop(35%, rgb(40, 49, 59)), to(rgb(72, 84, 97)));
+  background: linear-gradient(90deg, rgb(40, 49, 59) 0%, rgb(40, 49, 59) 35%, rgb(72, 84, 97) 100%);
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.about-me {
+  color: white;
+  margin-left: 15%;
+}
+
+.about-me-texts {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-name {
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.paragraph {
+  max-width: 800px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+span {
+  color: #c84814;
+}
+
+.hidden-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding-right: 15%;
+  font-size: 20px;
+  padding-left: 15%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navlist {
+  font-weight: 500;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #c84814;
+}
+
+.navbar-hr {
+  color: white;
+}
+
+.icons {
+  color: white;
+  scale: 1.8;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.icons:hover {
+  color: #c84814;
+  scale: 2.2;
+}
+.icons:active {
+  color: pink;
+}
+
+.works-box {
+  max-width: 250px;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px;
+  margin-left: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.works-box-small {
+  max-width: 200px;
+  width: 100%;
+  height: 250px;
+}
+
+.works-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30%;
+}
+
+.works-boxes-small {
+  margin-top: 5%;
+}
