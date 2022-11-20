@@ -126,3 +126,53 @@ nav ul li a {
 .works-boxes-small {
     margin-top: 5%;
 }
+
+
+
+
+
+.contact-section {
+ color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 25%;
+}
+
+
+.contact-btn {
+    width: 150px;
+    height: 50px;
+    border: #c84814 2px solid;
+    background: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 250px;
+    &:hover {
+        border: #ec875f 5px solid;
+        &:active {
+            scale: 1.1;
+        }
+    }
+}
+
+.btn-link {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-icons-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-small-text {
+    max-width: 450px;
+    margin-bottom: 30px;
+}
+
+
+.footer-text {
+    color: white;
+    font-size: 15px;
+}

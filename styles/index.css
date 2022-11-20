@@ -136,3 +136,55 @@ nav ul li a:hover {
 .works-boxes-small {
   margin-top: 5%;
 }
+
+.contact-section {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25%;
+}
+
+.contact-btn {
+  width: 150px;
+  height: 50px;
+  border: #c84814 2px solid;
+  background: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 250px;
+}
+.contact-btn:hover {
+  border: #ec875f 5px solid;
+}
+.contact-btn:hover:active {
+  scale: 1.1;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-icons-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-small-text {
+  max-width: 450px;
+  margin-bottom: 30px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 15px;
+}
