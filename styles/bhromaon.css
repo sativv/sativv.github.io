@@ -9,10 +9,6 @@ body {
           flex-direction: column;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .sec-1-bg {
   background-image: url("/images/bhromaon-images/background-section-1.jpeg");
   background-position: center;
