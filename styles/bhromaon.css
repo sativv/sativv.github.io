@@ -9,8 +9,12 @@ body {
           flex-direction: column;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .sec-1-bg {
-  background-image: url("../images/background-section-1.jpeg");
+  background-image: url("/images/bhromaon-images/background-section-1.jpeg");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -197,7 +201,7 @@ nav ul li {
 }
 
 .sec-2-bg {
-  background-image: url("../images/background-section-2.png");
+  background-image: url("/images/bhromaon-images/background-section-2.png");
   background-position: center;
   background-size: cover;
   max-width: 100%;
@@ -358,7 +362,7 @@ nav ul li {
 }
 
 .sec-3-bg {
-  background-image: url("../images/background-section-3.png");
+  background-image: url("/images/bhromaon-images/background-section-3.png");
   background-position: center;
   background-size: cover;
   max-width: 100%;
@@ -426,7 +430,7 @@ nav ul li {
 }
 
 .sec-4-bg {
-  background-image: url("../images/background-scetion-4.png");
+  background-image: url("/images/bhromaon-images/background-scetion-4.png");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -447,7 +451,7 @@ nav ul li {
 }
 
 .sec-5-bg {
-  background-image: url("../images/background-section-5.png");
+  background-image: url("/images/bhromaon-images/background-section-5.png");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -581,35 +585,28 @@ nav ul li {
   .sec1-bigtext {
     font-size: 35px;
   }
-
   .sec1-smalltext {
     font-size: 15px;
   }
-
   .searchbar {
     width: 300px;
     height: 50px;
   }
-
   .btn-text {
     height: 35px;
   }
-
   .list-text {
     font-size: 10px;
   }
-
   .sec-2-right {
     margin-left: 0px;
   }
-
   .sec-2-bg {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .mountain-img {
     max-width: 320px;
     width: 100%;
@@ -618,91 +615,71 @@ nav ul li {
        object-fit: contain;
     margin-left: 0px;
   }
-
   .lakehouse {
     margin-top: 10px;
   }
-
   .head-sec2 {
     font-size: 30px;
     margin-top: 20px;
   }
-
   .sec-3-boxes {
     margin-left: 0;
   }
-
   .box2 {
     margin: 0%;
   }
-
   .sec-5-text {
     font-size: 30px;
   }
-
   .box-h3 {
     margin-left: 0%;
     text-align: center;
   }
-
   .box-sec-5 {
     max-width: 320px;
     width: 100%;
     margin-top: 50px;
   }
-
   .sec-5-desktop {
     display: none;
   }
-
   .mobile-text {
     max-width: 320px;
     width: 100%;
   }
-
   .box-align {
     margin-left: 10px;
   }
-
   .box-text {
     margin-left: 0%;
     max-width: 310px;
     width: 100%;
   }
-
   .sec-2-button {
     margin-left: 40px;
   }
-
   .nav-sec-1 {
     min-height: 25px;
   }
-
   .list-text {
     display: none;
   }
-
   .list-logo {
     font-size: 15px;
   }
-
   .burgericon {
     display: block;
   }
-
   .sec-5-mobile {
     display: block;
   }
-
   .mobile-text {
     font-size: 12px;
     text-align: center;
   }
-
   .grid1 {
     scale: 0.3;
   }
-
   .socials {
     scale: 1.5;
   }

@@ -1,0 +1,54 @@
+$primary-font: 'Open Sans', sans-serif;
+$bg-color:#ecf0f1;
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: $bg-color;
+}
+
+h1{
+  font-family: $primary-font;
+}
+
+
+.navbar{
+
+    .container-fluid{
+
+        .navbar-brand{
+            
+            img{
+                max-width: 50px;
+                width: 100%;
+                border: 1px solid transparent;
+            }
+            img:hover{
+                border: 1px solid rgb(95, 95, 96);
+                border-radius: 50%;
+                transition:all 1s ease;   
+            }
+        }
+
+        #navigation{
+            transition: all 1s ease;
+            background: $bg-color;
+
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        color: black;
+                        border-bottom: 1px solid transparent;
+                    }
+                    .nav-link:hover{
+                        color: rgb(95, 95, 96);
+                        border-bottom: 1px solid rgb(95, 95, 96);
+                    }
+                }
+            }           
+        }
+       
+    }
+}

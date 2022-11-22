@@ -33,6 +33,23 @@ span {
     color: #c84814;
 }
 
+
+.education {
+    margin-top: 150px;
+
+}
+.edu-text {
+    margin-top: 80px;
+    &-2 {
+        margin-top: 50px ;
+    }
+}
+.edu-hr {
+    width: 800px;
+    
+}
+
+
 .hidden-nav {
     display: flex;
     color: white;

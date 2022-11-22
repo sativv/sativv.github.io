@@ -1,0 +1,75 @@
+/***************************Nav-bar for small screens*******************************/
+
+@media screen and (max-width: 820px) {
+
+    #menu{
+  
+      ul{
+        li:hover > { 
+          ul{
+            width: 120%;
+            font-weight: 200;
+            font-size: 12px; 
+            transition: all 2s ease;
+            /* identical to box height */
+            li{
+              font-size: 8px;
+            }
+          }
+        }
+      }
+  
+      .logo{
+        max-width: 65px;
+        width: 100%;
+      }
+  
+      ul{
+        .menu-text{
+          padding:0 0.5em;
+          font-weight: 50%;
+          font-size: 60%;
+        }
+      }
+    }
+    /***************************Nav-bar for small screens end*******************************/
+
+
+    /***************************Hero-section for small screens*******************************/
+    .hero-section{
+      margin-top: 5%;
+      padding: 1%;
+      flex-direction: column;
+
+
+      .hero-text{
+        max-width: 600px;
+        width: 100%;
+        height: 20%;
+
+        h1{
+          font-weight: bold;
+          font-size: 1.2em;
+          line-height: 0.5em;
+        }
+      
+        button{
+          width: 25%;
+          height: 3%;
+          font-weight: 400;
+          font-size: 0.7em;
+
+        }
+      }
+    }
+  
+  .hero-image{
+    img{
+        width: 40%;
+    }
+  }
+}
+/***************************Hero-section for small screens end*******************************/
+      
+
+  

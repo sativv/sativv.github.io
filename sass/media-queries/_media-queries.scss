@@ -1,0 +1,117 @@
+/*******************For mediam size screens******************/
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  /***************Hero section*******************/
+  .hero-section{
+    padding: 1rem;
+    flex-direction: row;
+
+    .hero-text{
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h1{
+        font-weight: bold;
+        font-size: 2em;
+        line-height: 0.5em;
+      }
+    }
+    .hero-image{
+      height: auto;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  
+  
+  /***************Hero section end*******************/
+
+  /***************Poetry section*******************/
+  .poetry-section{
+    padding: 1rem;
+    height: auto;
+    flex-direction: column;
+
+    .heading{
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+
+      h1{
+        font-weight: bold;
+        font-size: 2em;
+        line-height: 0.5em;
+      }
+    }
+
+    .poet-section{
+      padding: 0.5rem 0.5rem;
+    }
+    /***************Poetry section end*******************/
+  }
+}
+/*******************For mediam size screens end******************/
+
+
+/******************For mobile devices**********************/
+@media screen and (max-width: 767px){
+   /***************Hero section*******************/
+   .hero-section{
+    height: auto;
+    flex-direction: column;
+
+    .hero-text{
+      height: 20%;
+      justify-content: flex-end;
+
+      h1{
+        font-size: 1.2em;
+      }
+    }
+  }
+  
+  .hero-image{
+    img{
+      width: 40%;
+    }
+  }
+  /***************Hero section end*******************/
+
+  /***************Poetry section*******************/
+  .poetry-section{
+    overflow:visible;
+    flex-direction: column;
+    height: auto;
+    gap: 0.5rem;
+      
+    .heading{
+      text-align: center;
+      width: 100vw;
+    }
+
+    .poet-section{
+      padding: 0.5rem;
+      height: auto;
+      flex-direction: column;
+      gap: 0.5rem;
+      .box{
+        figure{
+          img{
+          width: 30%;
+          object-fit:cover;
+          }
+        }        
+      }
+    }
+  }
+  /***************Poetry section end*******************/
+}
+/******************For mobile devices end**********************/
+      
+
+  

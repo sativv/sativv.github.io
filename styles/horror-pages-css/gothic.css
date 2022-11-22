@@ -1,0 +1,194 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #ecf0f1;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar .container-fluid .navbar-brand img {
+  max-width: 50px;
+  width: 100%;
+  border: 1px solid transparent;
+}
+.navbar .container-fluid .navbar-brand img:hover {
+  border: 1px solid rgb(95, 95, 96);
+  border-radius: 50%;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.navbar .container-fluid #navigation {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background: #ecf0f1;
+}
+.navbar .container-fluid #navigation .navbar-nav .nav-item .nav-link {
+  color: black;
+  border-bottom: 1px solid transparent;
+}
+.navbar .container-fluid #navigation .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(95, 95, 96);
+  border-bottom: 1px solid rgb(95, 95, 96);
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  background-image: url("/images/horror/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
+  width: 100%;
+  min-height: 1440px;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 200px;
+}
+
+.box {
+  background-image: url("/images/horror/gothic-horror.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 1200px;
+  width: 100%;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: black 3px 3px 3px;
+  border-radius: 5px;
+  border: 1px white solid;
+}
+
+.horror-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.menu-browse {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.menu-texts {
+  margin-bottom: 75px;
+}
+
+.menuitem {
+  padding: 2px;
+}
+
+.book-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.books {
+  width: 80px;
+  height: 100px;
+  margin-bottom: 25px;
+}
+
+.goth-book {
+  text-align: center;
+  max-width: 100px;
+}
+.goth-book:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.author {
+  font-weight: 500;
+}
+
+.return {
+  scale: 2;
+  color: white;
+}
+.return:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+.return-arrow {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 25px;
+}
+
+.breadcrumb {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  content: "/ ";
+}
+
+ul.breadcrumb li a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #7e0101;
+  text-decoration: underline;
+}

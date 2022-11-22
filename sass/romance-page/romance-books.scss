@@ -1,0 +1,88 @@
+/******************Navigation bar***************/
+@import '../landing-page/nav-bar'; 
+/******************Navigation bar End***************/
+
+main hr {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+.title {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    h1 {
+      text-align: center;
+      color: #be9b9b;
+      font-size: 3em;
+      font-family: 'Playfair Display', serif;
+    }
+}
+.book-flex {
+  display: flex;
+  justify-content: space-around;
+  .flex-item {
+    
+    img {
+      display: block;
+      margin: auto;
+      border: 5px inset #be9b9b;
+      width: 290px;
+      height: 430px;
+    }
+    p {
+      max-width: 360px;
+      text-align: center;
+      font-family: $primary-font;
+      font-size: 1.2em;
+      padding-bottom: 30px;
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+      
+      .fa-solid {
+        color: rgb(222, 189, 2);
+      }
+    }
+  }
+  
+}
+button {
+    color: #be9b9b;
+      display: block;
+      margin: auto;
+      font-size: 1.5em;
+      padding: 5px 25px;
+      border-radius: 10px;
+      border: 2px solid #be9b9b;
+      transition: all ease-out 0.5s;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
+button:hover {
+    background-color: #be9b9b;
+    color: $bg-color;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+  .title {
+    padding: 0px 50px;
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .title {
+    padding: 0px 50px;
+    max-width: 550px;
+  }
+}

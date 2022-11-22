@@ -1,0 +1,87 @@
+
+
+$primary-font: 'Open Sans', sans-serif;
+@import 'nav-bar'; 
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    // background-image: url("../images/horror-img.jpg");
+    background-image: url("../images/horror/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
+    width: 100%;
+    min-height: 1440px;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.box {
+    // background-color: rgb(37, 32, 32);
+    // border: rgb(116, 115, 115) 2px solid;
+    background-image: url("/images/horror/stefano-pollio-ZC0EbdLC8G0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 1200px;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+    border: 1px black solid;
+    // box-shadow: 5px 5px rgb(116, 115, 115)
+}
+
+
+.horror-menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu-browse {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.menu-texts {
+    margin-bottom: 75px;
+}
+.menuitem {
+    padding: 5px;
+}
+.btn-horror {
+
+    width: 125px;
+    height: 40px;
+    background-color: grey;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+
+    box-shadow: 2px 2px black;
+
+    &:hover {
+        background-color: rgb(99, 98, 98);
+    }
+    &:active {
+        transform: scale(1.05);
+    }
+
+
+}
