@@ -112,6 +112,7 @@ nav ul li a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
 }
 
 .works-box-small {
@@ -135,6 +136,13 @@ nav ul li a:hover {
 
 .works-boxes-small {
   margin-top: 5%;
+}
+
+img {
+  margin-top: 25px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .contact-section {

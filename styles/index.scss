@@ -105,6 +105,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     
 }
 
@@ -127,7 +128,11 @@ nav ul li a {
     margin-top: 5%;
 }
 
-
+img {
+    margin-top: 25px;
+    width: 200px;
+    object-fit: cover;
+}
 
 
 
