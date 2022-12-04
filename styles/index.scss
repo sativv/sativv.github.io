@@ -54,8 +54,12 @@ span {
 .hidden-nav {
     display: flex;
     color: white;
-    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 720px;
+    display: none;
 }
+
 .navbar {
     display: flex;
     justify-content: end;
@@ -124,11 +128,20 @@ nav ul li a {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    box-shadow: 5px 5px black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     &:hover {
-        box-shadow: 5px 5px #c84814;
+        box-shadow:#c84814 1.95px 1.95px 2.6px;
     }
     
+}
+
+.works-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 30%;
+    margin-bottom: 2%;
+    font-size: 18px;
 }
 
 .works-box-small {
@@ -154,7 +167,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30%;
+
 
 }
 
@@ -212,10 +225,12 @@ img {
 .contact-small-text {
     max-width: 450px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 
 .footer-text {
     color: white;
     font-size: 15px;
+    margin-left: 25px;
 }
