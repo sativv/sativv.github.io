@@ -1,0 +1,159 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ecf0f1;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar .container-fluid .navbar-brand img {
+  max-width: 50px;
+  width: 100%;
+  border: 1px solid transparent;
+}
+.navbar .container-fluid .navbar-brand img:hover {
+  border: 1px solid rgb(95, 95, 96);
+  border-radius: 50%;
+  transition: all 1s ease;
+}
+.navbar .container-fluid #navigation {
+  transition: all 1s ease;
+  background: #ecf0f1;
+}
+.navbar .container-fluid #navigation .navbar-nav .nav-item .nav-link {
+  color: black;
+  border-bottom: 1px solid transparent;
+}
+.navbar .container-fluid #navigation .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(95, 95, 96);
+  border-bottom: 1px solid rgb(95, 95, 96);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-image: url("/images/horror/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
+  width: 100%;
+  min-height: 1440px;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.box {
+  background-image: url("/images/horror/photo-1487174244970-cd18784bb4a4.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 1200px;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+
+.horror-menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.menu-browse {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.menu-texts {
+  margin-bottom: 75px;
+}
+
+.menuitem {
+  padding: 2px;
+}
+
+.book-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.books {
+  width: 80px;
+  height: 100px;
+  margin-bottom: 25px;
+}
+
+.goth-book {
+  text-align: center;
+  max-width: 100px;
+}
+.goth-book:hover {
+  transform: scale(1.02);
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.return {
+  scale: 2;
+  color: white;
+}
+.return:hover {
+  transform: scale(1.25);
+}
+.return-arrow {
+  align-self: flex-start;
+  margin-left: 25px;
+}
+
+.breadcrumb {
+  align-self: flex-start;
+}
+
+.author {
+  font-weight: 500;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  content: "/ ";
+}
+
+ul.breadcrumb li a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #7e0101;
+  text-decoration: underline;
+}/*# sourceMappingURL=splatterpunk.css.map */

@@ -1,0 +1,129 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #ecf0f1;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar .container-fluid .navbar-brand img {
+  max-width: 50px;
+  width: 100%;
+  border: 1px solid transparent;
+}
+.navbar .container-fluid .navbar-brand img:hover {
+  border: 1px solid rgb(95, 95, 96);
+  border-radius: 50%;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.navbar .container-fluid #navigation {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background: #ecf0f1;
+}
+.navbar .container-fluid #navigation .navbar-nav .nav-item .nav-link {
+  color: black;
+  border-bottom: 1px solid transparent;
+}
+.navbar .container-fluid #navigation .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(95, 95, 96);
+  border-bottom: 1px solid rgb(95, 95, 96);
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  background-image: url("../images/horror/stella-rosalyn-yUVg_VFdSq4-unsplash.jpg");
+  width: 100%;
+  min-height: 1440px;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 200px;
+}
+
+.box {
+  background-image: url("/images/horror/stefano-pollio-ZC0EbdLC8G0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 1200px;
+  width: 100%;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+
+.horror-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.menu-browse {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.menu-texts {
+  margin-bottom: 75px;
+}
+
+.menuitem {
+  padding: 5px;
+}
+
+.btn-horror {
+  width: 125px;
+  height: 40px;
+  background-color: grey;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px black;
+          box-shadow: 2px 2px black;
+}
+.btn-horror:hover {
+  background-color: rgb(99, 98, 98);
+}
+.btn-horror:active {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
